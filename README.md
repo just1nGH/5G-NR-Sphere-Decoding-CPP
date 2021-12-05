@@ -2,7 +2,7 @@
 
 C++ Implenmentation of 5G NR MIMO Sphere Decoder
 - Tree traverse stratigies: single tree search 
-- Support different modulation schemes for each Tx antenna
+- Support  different modulation schemes for Tx antennas
 
 The implementation sphere decoding algorithms(single tree seach)for seeking the maximum-likelihood solution 
 for a set of symbols transmitted over the MIMO channel. 

@@ -6,6 +6,11 @@ C++ Implenmentation of 5G NR MIMO Sphere Decoder
 
 The implementation sphere decoding algorithms(single tree seach)for seeking the maximum-likelihood solution 
 for a set of symbols transmitted over the MIMO channel. 
+
+
+Note: the algorithm relys on QR decompostion which performed by using Eigen package, in order to use the code, the package must be installed.
+
+
 ```
 //-----------------------------------------------------------------------------------------------
 // softbits = nrSphereDecoder(H, rxSymbs) uses sphere decoding algorithms (single tree seach)
